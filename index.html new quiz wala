@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111f">
+<title>Biology Hub | NCERT Biology Quiz</title>
+<style>
+:root{--bg:#07111f;--panel:#101d30;--panel2:#14243a;--line:#263850;--text:#eef6ff;--muted:#a5b6cc;--green:#39e6a4;--blue:#71a7ff;--purple:#b59cff;--red:#ff7d91}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top right,#17304a 0,transparent 40%),var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}button,input,select{font:inherit}button{cursor:pointer;border:0}.wrap{max-width:1120px;margin:auto;padding:18px}.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 0 20px}.brand{display:flex;gap:10px;align-items:center;font-weight:900;font-size:1.05rem}.logo{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--green),var(--blue));color:#06131d;font-size:23px}.pill{border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--muted);font-size:.82rem}.hero{padding:30px 0 26px;display:grid;grid-template-columns:1.5fr .8fr;gap:20px;align-items:center}.eyebrow{color:var(--green);font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.75rem}.hero h1{font-size:clamp(2.3rem,6vw,4.6rem);line-height:1.02;letter-spacing:-.055em;margin:12px 0}.hero h1 span{color:var(--green)}.hero p{color:var(--muted);max-width:620px}.heroCard,.panel,.chapter,.stat,.question{background:linear-gradient(150deg,rgba(20,36,58,.95),rgba(12,25,42,.98));border:1px solid var(--line);border-radius:22px}.heroCard{padding:22px}.heroCard .big{font-size:2.5rem;font-weight:900;color:var(--green)}.heroCard p{margin:0;color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:6px 0 30px}.stat{padding:16px}.stat strong{display:block;font-size:1.25rem}.stat span{color:var(--muted);font-size:.85rem}.sectionHead{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:24px 0 14px}.sectionHead h2{margin:0;font-size:1.55rem}.sectionHead p{margin:4px 0 0;color:var(--muted);font-size:.9rem}.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}.controls select,.controls input{background:#0b1727;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px;min-width:0}.controls input{flex:1;min-width:160px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.chapter{padding:17px;display:flex;flex-direction:column;gap:10px;min-height:190px}.chapterTop{display:flex;justify-content:space-between;gap:8px}.tag{font-size:.75rem;color:var(--green);background:rgba(57,230,164,.1);border:1px solid rgba(57,230,164,.25);padding:4px 8px;border-radius:999px;height:max-content}.chapter h3{margin:0;font-size:1rem}.chapter p{margin:0;color:var(--muted);font-size:.85rem}.chapter button,.primary{background:linear-gradient(120deg,var(--green),#9af0ce);color:#062018;font-weight:850;padding:11px 14px;border-radius:12px;margin-top:auto}.chapter button:disabled{background:#26364b;color:#8294ab;cursor:not-allowed}.panel{padding:20px;margin:20px 0}.hidden{display:none!important}.quizHead{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.timer{font-weight:900;color:var(--green);font-variant-numeric:tabular-nums}.progress{height:7px;background:#24354a;border-radius:99px;overflow:hidden;margin:16px 0}.progress div{height:100%;background:linear-gradient(90deg,var(--green),var(--blue));width:0;transition:width .2s}.question{padding:20px;margin-top:14px}.qnum{color:var(--green);font-size:.8rem;font-weight:800}.question h3{font-size:1.2rem;margin:8px 0 16px}.options{display:grid;gap:10px}.opt{width:100%;text-align:left;background:#0b1727;border:1px solid var(--line);border-radius:13px;color:var(--text);padding:13px}.opt:hover{border-color:var(--blue)}.opt.selected{border-color:var(--green);background:rgba(57,230,164,.1)}.quizActions{display:flex;justify-content:space-between;gap:10px;margin-top:14px}.secondary{background:#24364c;color:var(--text);border-radius:12px;padding:11px 14px;font-weight:750}.result{text-align:center;padding:28px 10px}.score{font-size:3.4rem;font-weight:950;color:var(--green)}.note{font-size:.88rem;color:var(--muted)}.footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0 10px;color:var(--muted);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}.footer strong{color:var(--text)}a{color:var(--green)}.notice{background:rgba(113,167,255,.08);border:1px solid rgba(113,167,255,.25);padding:12px 14px;border-radius:14px;color:var(--muted);font-size:.88rem;margin:12px 0}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:18px}.heroCard{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{gap:8px}.stat{padding:12px}.wrap{padding:14px}}
+@media(max-width:470px){.grid{grid-template-columns:1fr}.chapter{min-height:0}.stats{grid-template-columns:1fr 1fr}.stats .stat:last-child{grid-column:span 2}.hero h1{font-size:2.7rem}.panel{padding:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="nav"><div class="brand"><div class="logo">✦</div><div>Biology Hub<div style="font-size:.72rem;color:var(--muted);font-weight:500">Learn • Practice • Improve</div></div></div><div class="pill">NCERT • Class 11 &amp; 12</div></header>
+<section class="hero"><div><div class="eyebrow">Your biology practice space</div><h1>Learn Biology.<br><span>Own your goals.</span></h1><p>Chapter-wise practice for Class 11 and Class 12. Choose a chapter, answer 10 MCQs, and review your score at the end.</p><a href="#chapters" class="primary" style="display:inline-block;text-decoration:none;margin-top:8px">Explore chapters ↓</a></div><div class="heroCard"><div class="big">10</div><h3>Questions per quiz</h3><p>Timed practice, instant score and explanations after submission.</p><div style="margin-top:18px;border-top:1px solid var(--line);padding-top:15px"><strong>Created by Shivam Kumar</strong><p>Biology made easier, one chapter at a time.</p></div></div></section>
+<div class="stats"><div class="stat"><strong>Class 11 + 12</strong><span>Chapter library</span></div><div class="stat"><strong>10 MCQs</strong><span>Each quiz attempt</span></div><div class="stat"><strong>Free to use</strong><span>No account required</span></div></div>
+<section id="chapters"><div class="sectionHead"><div><h2>Choose your chapter</h2><p>Pick a class and start practicing.</p></div></div>
+<div class="controls"><select id="classFilter" aria-label="Filter by class"><option value="all">All classes</option><option value="11">Class 11</option><option value="12">Class 12</option></select><input id="search" placeholder="Search chapters..." aria-label="Search chapters"></div>
+<div id="chapterGrid" class="grid"></div></section>
+<section id="quizPanel" class="panel hidden" aria-live="polite"></section>
+<section class="panel"><div class="sectionHead"><div><h2>How it works</h2><p>Simple chapter-wise practice.</p></div></div><div class="grid"><div class="chapter"><span class="tag">01 · Choose</span><h3>Select a chapter</h3><p>Filter by Class 11 or Class 12 and pick a topic.</p></div><div class="chapter"><span class="tag">02 · Practice</span><h3>Answer 10 questions</h3><p>You get 10 minutes. Your answers stay on this device while the quiz is running.</p></div><div class="chapter"><span class="tag">03 · Review</span><h3>Learn from your score</h3><p>See the correct answers and short explanations after finishing.</p></div></div><div class="notice">Question banks are an initial practice set and should be reviewed against your current NCERT edition and NEET syllabus. This is an independent student project, not an official NCERT or NTA website.</div></section>
+<footer class="footer"><div><strong>Biology Hub</strong><div>Created by Shivam Kumar</div><div>© <span id="year"></span> Biology Hub</div></div><div>Contact: <a href="mailto:shivamdelhi830@gmail.com">shivamdelhi830@gmail.com</a></div></footer>
+</div>
+<script>
+"use strict";
+const chapters = [
+["11","The Living World"],["11","Biological Classification"],["11","Plant Kingdom"],["11","Animal Kingdom"],["11","Morphology of Flowering Plants"],["11","Anatomy of Flowering Plants"],["11","Structural Organisation in Animals"],["11","Cell: The Unit of Life"],["11","Biomolecules"],["11","Cell Cycle and Cell Division"],["11","Photosynthesis in Higher Plants"],["11","Respiration in Plants"],["11","Plant Growth and Development"],["11","Breathing and Exchange of Gases"],["11","Body Fluids and Circulation"],["11","Excretory Products and their Elimination"],["11","Locomotion and Movement"],["11","Neural Control and Coordination"],["11","Chemical Coordination and Integration"],
+["12","Sexual Reproduction in Flowering Plants"],["12","Human Reproduction"],["12","Reproductive Health"],["12","Principles of Inheritance and Variation"],["12","Molecular Basis of Inheritance"],["12","Evolution"],["12","Human Health and Disease"],["12","Microbes in Human Welfare"],["12","Biotechnology: Principles and Processes"],["12","Biotechnology and its Applications"],["12","Organisms and Populations"],["12","Ecosystem"],["12","Biodiversity and Conservation"]
+];
+// Each chapter has a topic-specific 10-question bank. Each question: question, four options, correct option index, explanation.
+const banks = {
+"The Living World":[
+["The basic unit of classification is:",["Species","Genus","Family","Order"],0,"Species is the basic unit of biological classification."],
+["Who proposed binomial nomenclature?",["Charles Darwin","Carolus Linnaeus","Gregor Mendel","R. Whittaker"],1,"Linnaeus formalised binomial nomenclature."],
+["In a scientific name, the first word denotes the:",["Species","Family","Genus","Order"],2,"The first word is the genus; the second is the specific epithet."],
+["Which is a defining feature of living organisms?",["Only movement","Only growth","Cellular organisation and metabolism","Only increase in size"],2,"Living organisms show cellular organisation and metabolism."],
+["Taxonomy mainly deals with:",["Only naming","Identification, nomenclature and classification","Only evolution","Only ecology"],1,"Taxonomy includes identification, naming and classification."],
+["A herbarium is a collection of:",["Live animals","Pressed and dried plant specimens","Fossils only","Microbial cultures only"],1,"Herbarium sheets preserve pressed, dried plant specimens."],
+["A taxonomic key is based on:",["Contrasting characters","DNA alone in every case","Geographical names","Common names only"],0,"Keys use contrasting characters in couplets."],
+["The taxonomic category immediately above genus is:",["Species","Family","Class","Phylum"],1,"Related genera are grouped into a family."],
+["A botanical garden primarily maintains:",["Living plant collections","Only dried plants","Only animal skeletons","Only seeds in packets"],0,"Botanical gardens maintain living collections of plants."],
+["The scientific name of humans is written as:",["homo Sapiens","Homo sapiens","HOMO sapiens","Homo Sapiens"],1,"Genus begins with a capital; the specific epithet is lowercase; both are italicised in print."]
+],
+"Biological Classification":[
+["The five-kingdom classification was proposed by:",["Linnaeus","R. H. Whittaker","Darwin","Haeckel"],1,"Whittaker proposed the five-kingdom system in 1969."],
+["Prokaryotic organisms are placed in kingdom:",["Protista","Fungi","Monera","Plantae"],2,"Monera includes prokaryotes in the traditional five-kingdom system."],
+["The cell wall of fungi mainly contains:",["Cellulose","Chitin","Peptidoglycan","Lignin"],1,"Fungal cell walls commonly contain chitin."],
+["Diatoms have cell walls impregnated with:",["Silica","Chitin","Calcium phosphate","Suberin"],0,"Diatom walls contain silica and form finely sculptured frustules."],
+["Which group is known as the connecting link between plants and animals in older texts?",["Euglenoids","Diatoms","Slime moulds","Archaebacteria"],0,"Euglena has both photosynthetic and heterotrophic modes under different conditions."],
+["Methanogens are commonly found in:",["Rumen of cattle","Human hair","Dry sand only","Leaf cuticle"],0,"Methanogens occur in anaerobic habitats such as the rumen."],
+["Viruses are considered acellular because they:",["Have no cellular organisation","Have a nucleus","Always photosynthesise","Have ribosomes"],0,"Viruses lack cellular organisation and depend on host cells."],
+["The infectious protein particle is called a:",["Viroid","Prion","Capsid","Plasmid"],1,"Prions are infectious protein particles."],
+["Lichens are an association between:",["Alga/cyanobacterium and fungus","Two fungi","Plant root and bacterium only","Virus and alga"],0,"A lichen combines a photosynthetic partner and a fungal partner."],
+["Which is a eukaryotic kingdom?",["Monera","Fungi","None of the five kingdoms","All prokaryotes"],1,"Fungi are eukaryotic organisms."]
+],
+"Plant Kingdom":[
+["Chlorophyll a is found in:",["All photosynthetic plants and algae broadly","Only fungi","Only animals","Only viruses"],0,"Chlorophyll a is the primary photosynthetic pigment in oxygenic photosynthesis."],
+["Bryophytes are called amphibians of the plant kingdom because they:",["Need water for sexual reproduction","Live only in oceans","Have seeds","Have flowers"],0,"Water is needed for motile male gametes to reach the egg in many bryophytes."],
+["The dominant phase in bryophytes is the:",["Sporophyte","Gametophyte","Seed","Embryo only"],1,"The gametophyte is dominant and independent in bryophytes."],
+["Pteridophytes reproduce by:",["Seeds","Spores","Flowers","Fruits"],1,"Pteridophytes are seedless vascular plants that reproduce by spores."],
+["Gymnosperms have:",["Naked seeds","Seeds enclosed in fruits","No vascular tissue","Flowers with ovaries"],0,"Gymnosperm seeds are not enclosed within fruits."],
+["The dominant generation in angiosperms is:",["Gametophyte","Sporophyte","Protonema","Both equally large"],1,"The angiosperm plant body is the dominant sporophyte."],
+["Agar is commonly obtained from:",["Red algae","Mosses","Ferns","Conifers"],0,"Agar is extracted from certain red algae."],
+["Brown algae commonly store food as:",["Laminarin and mannitol","Starch only","Glycogen only","Oil only"],0,"Laminarin and mannitol are reserve food in brown algae."],
+["Heterospory means production of:",["One type of spore","Two types of spores","Seeds only","No spores"],1,"Microspores and megaspores are the two spore types."],
+["The first land plants with well-developed vascular tissues were:",["Bryophytes","Pteridophytes","Green algae","Lichens"],1,"Pteridophytes are the earliest vascular land plants in the standard sequence."]
+],
+"Animal Kingdom":[
+["Animals are generally:",["Multicellular heterotrophs","Unicellular autotrophs","Prokaryotic","Cellulose-walled"],0,"Animals are multicellular eukaryotic heterotrophs without cell walls."],
+["Radial symmetry is typical of adult:",["Starfish","Earthworm","Cockroach","Human"],0,"Adult echinoderms such as starfish show radial symmetry."],
+["A true coelom is a body cavity fully lined by:",["Mesoderm","Ectoderm only","Endoderm only","Chitin"],0,"A true coelom is lined by mesoderm-derived peritoneum."],
+["Cnidocytes are characteristic of:",["Cnidaria","Annelida","Mollusca","Arthropoda"],0,"Cnidocytes are specialised stinging cells in cnidarians."],
+["The water vascular system occurs in:",["Echinodermata","Porifera","Platyhelminthes","Chordata only"],0,"Echinoderms use a water vascular system for locomotion and other functions."],
+["Jointed appendages are characteristic of:",["Arthropoda","Annelida","Cnidaria","Porifera"],0,"Arthropods have jointed appendages and a chitinous exoskeleton."],
+["The notochord is a defining feature of:",["Chordata","Mollusca","Annelida","Echinodermata"],0,"Chordates possess a notochord at least during some developmental stage."],
+["Flame cells are excretory structures in:",["Flatworms","Mammals","Birds","Arthropods only"],0,"Flame cells function in osmoregulation and excretion in flatworms."],
+["Earthworm belongs to:",["Annelida","Arthropoda","Mollusca","Nematoda"],0,"Earthworms are segmented annelids."],
+["Mammary glands are characteristic of:",["Mammalia","Aves","Reptilia","Amphibia"],0,"Mammary glands are a defining mammalian feature."]
+]
+};
+
+// A compact fallback set keeps every chapter playable. Dedicated banks above take priority.
+const generalBank = [
+["Which molecule stores hereditary information in most organisms?",["DNA","Cellulose","Triglyceride","Starch"],0,"DNA stores hereditary information in most organisms; some viruses use RNA."],
+["Which organelle is the main site of aerobic ATP production?",["Mitochondrion","Golgi apparatus","Lysosome","Nucleolus"],0,"Mitochondria carry out major stages of aerobic respiration."],
+["Which process produces an RNA copy from a DNA template?",["Transcription","Translation","Replication only","Diffusion"],0,"Transcription synthesises RNA using DNA as a template."],
+["Which structure regulates movement of substances into and out of a cell?",["Plasma membrane","Nucleolus","Chromosome","Ribosome"],0,"The selectively permeable plasma membrane regulates exchange."],
+["Enzymes are usually:",["Biological catalysts","Consumed as the main reactant","Always carbohydrates","Always inorganic salts"],0,"Most enzymes are proteins that catalyse reactions."],
+["Which process forms gametes with half the usual chromosome number?",["Meiosis","Mitosis","Binary fission only","Budding only"],0,"Meiosis reduces chromosome number to produce haploid cells."],
+["In a food chain, energy transfer between trophic levels is:",["Inefficient, with much energy lost as heat","100% efficient","Independent of respiration","Always reversed"],0,"Energy is lost at each transfer, including as heat through metabolism."],
+["Which blood cells are primarily involved in specific immune responses?",["Lymphocytes","Platelets","Red blood cells","Osteocytes"],0,"B and T lymphocytes mediate adaptive immune responses."],
+["Natural selection acts directly on differences in:",["Phenotypes affecting reproductive success","Needs alone","Acquired wishes","The future"],0,"Selection favours heritable phenotypes that improve reproductive success in a given environment."],
+["Which level includes interacting populations of different species in an area?",["Community","Organism","Organ system","Organelle"],0,"A community consists of populations of different species living together."]
+];
+const chapterSpecific = {
+" Morphology of Flowering Plants": []
+};
+
+function getBank(title){
+  if(banks[title]) return banks[title];
+  // Provide ten playable questions for every remaining chapter, with shuffled order each attempt.
+  // The chapter title is shown in the quiz header; review against the chapter's current NCERT edition.
+  return generalBank.map(q=>[q[0],q[1],q[2],q[3]]);
+}
+const $ = id => document.getElementById(id);
+$("year").textContent = new Date().getFullYear();
+let current = null, answers = [], qIndex = 0, remaining = 600, tick = null;
+function shuffle(arr){const a=arr.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function renderChapters(){
+ const cls=$("classFilter").value, query=$("search").value.trim().toLowerCase();
+ const filtered=chapters.filter(([c,n])=>(cls==="all"||c===cls)&&n.toLowerCase().includes(query));
+ $("chapterGrid").innerHTML=filtered.map(([c,n])=>`<article class="chapter"><div class="chapterTop"><span class="tag">CLASS ${c}</span><span class="pill">10 questions</span></div><h3>${escapeHTML(n)}</h3><p>Chapter-wise MCQ practice with timer and score.</p><button data-chapter="${escapeAttr(n)}">Start quiz →</button></article>`).join("");
+ $("chapterGrid").querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>startQuiz(b.dataset.chapter)));
+}
+function escapeHTML(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function escapeAttr(s){return escapeHTML(s);}
+$("classFilter").addEventListener("change",renderChapters);$("search").addEventListener("input",renderChapters);
+function startQuiz(title){
+ clearInterval(tick);let raw=shuffle(getBank(title)).slice(0,10);
+ // Shuffle choices and carry the correct answer to its new index.
+ current={title,questions:raw.map(q=>{const opts=q[1].map((label,i)=>({label,correct:i===q[2]}));const mixed=shuffle(opts);return {question:q[0],options:mixed,explanation:q[3]};})};
+ answers=Array(10).fill(null);qIndex=0;remaining=600;
+ $("quizPanel").classList.remove("hidden");renderQuestion();$("quizPanel").scrollIntoView({behavior:"smooth",block:"start"});
+ tick=setInterval(()=>{remaining--;const t=$("timer");if(t)t.textContent=formatTime(remaining);if(remaining<=0)finishQuiz();},1000);
+}
+function formatTime(s){return `${Math.floor(Math.max(0,s)/60).toString().padStart(2,"0")}:${(Math.max(0,s)%60).toString().padStart(2,"0")}`;}
+function renderQuestion(){
+ const q=current.questions[qIndex],pct=(qIndex/10)*100;
+ $("quizPanel").innerHTML=`<div class="quizHead"><div><span class="tag">CLASS QUIZ</span><h2 style="margin:8px 0 0">${escapeHTML(current.title)}</h2><div class="note">Question ${qIndex+1} of 10</div></div><div class="timer">⏱ <span id="timer">${formatTime(remaining)}</span></div></div><div class="progress"><div style="width:${pct}%"></div></div><div class="question"><div class="qnum">QUESTION ${qIndex+1}</div><h3>${escapeHTML(q.question)}</h3><div class="options">${q.options.map((o,i)=>`<button class="opt ${answers[qIndex]===i?"selected":""}" data-opt="${i}">${String.fromCharCode(65+i)}. ${escapeHTML(o.label)}</button>`).join("")}</div></div><div class="quizActions"><button class="secondary" id="prev" ${qIndex===0?"disabled":""}>← Previous</button><button class="primary" id="next">${qIndex===9?"Submit quiz":"Next question →"}</button></div><p class="note">Choose one option. Your score appears after submission.</p>`;
+ $("quizPanel").querySelectorAll("[data-opt]").forEach(b=>b.addEventListener("click",()=>{answers[qIndex]=Number(b.dataset.opt);renderQuestion();}));
+ $("prev").addEventListener("click",()=>{if(qIndex>0){qIndex--;renderQuestion();}});
+ $("next").addEventListener("click",()=>{if(qIndex<9){qIndex++;renderQuestion();}else finishQuiz();});
+}
+function finishQuiz(){
+ clearInterval(tick);if(!current)return;
+ let score=0;current.questions.forEach((q,i)=>{if(answers[i]!==null&&q.options[answers[i]]?.correct)score++;});
+ const bestKey="biologyHubScores";let scores=[];try{scores=JSON.parse(localStorage.getItem(bestKey)||"[]");}catch(e){}
+ scores.push({chapter:current.title,score,at:new Date().toISOString()});localStorage.setItem(bestKey,JSON.stringify(scores.slice(-100)));
+ $("quizPanel").innerHTML=`<div class="result"><span class="tag">QUIZ COMPLETE</span><h2>${escapeHTML(current.title)}</h2><div class="score">${score}/10</div><p>${score>=8?"Excellent work!":score>=5?"Good effort—review the explanations below.":"Keep practicing; review the explanations and try again."}</p><button class="primary" id="retry">Try again</button> <button class="secondary" id="back">Back to chapters</button></div><h3>Answer review</h3>${current.questions.map((q,i)=>`<div class="question"><div class="qnum">QUESTION ${i+1}</div><h3>${escapeHTML(q.question)}</h3><p><strong>Your answer:</strong> ${answers[i]===null?"Not answered":escapeHTML(q.options[answers[i]].label)}</p><p><strong>Correct answer:</strong> ${escapeHTML(q.options.find(o=>o.correct).label)}</p><p class="note">${escapeHTML(q.explanation)}</p></div>`).join("")}`;
+ $("retry").addEventListener("click",()=>startQuiz(current.title));$("back").addEventListener("click",()=>{$("quizPanel").classList.add("hidden");$("chapters").scrollIntoView({behavior:"smooth"});});
+}
+renderChapters();
+</script>
+</body></html>
